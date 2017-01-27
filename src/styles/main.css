@@ -1,0 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body { height: 100%; }
+#root { background: var(--bgColor); min-height: 100%; }
+
+.color-band {
+
+}
