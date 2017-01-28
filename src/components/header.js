@@ -1,39 +1,21 @@
 import React, { PropTypes } from 'react';
+import ColorBand from './color-band';
 
 function Header({ routes }) {
-  // function generateMapMenu() {
-  //   let path = '';
-
-  //   function nextPath(route) {
-  //     path += (
-  //       (path.slice(-1) === '/' ? '' : '/') +
-  //       (route.path === '/' ? '' : route.path)
-  //     );
-  //     return path;
-  //   }
-
-  //   return (
-  //     routes.filter(route => route.mapMenuTitle)
-  //       .map((route, index, array) => (
-  //         <span key={index}>
-  //           dsdsd
-  //           {(index + 1) < array.length && ' / '}
-  //         </span>
-  //       ))
-  //   );
-  // }
   return (
     <header>
-      <h1>Renee Vrantsidis</h1>
-      <nav>
-        Menu
-      </nav>
+      <ColorBand />
+      <div className="container">
+        <h1 className="name">
+          ren<span className="hidden-name">ee </span>vrant<span className="hidden-name">sidis</span>
+        </h1>
+      </div>
     </header>
   );
 }
 
 Header.propTypes = {
-  routes: PropTypes.array.isRequired,
+  routes: PropTypes.array,
 };
 
 export default Header;

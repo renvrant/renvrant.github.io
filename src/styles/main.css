@@ -1,10 +1,92 @@
-* {
-  box-sizing: border-box;
+/* Globals */
+* { box-sizing: border-box; }
+html, body { background: #F0F0F0; height: 100%; }
+#root { min-height: 100%; }
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 
-html, body { height: 100%; }
-#root { background: var(--bgColor); min-height: 100%; }
-
 .color-band {
+  width: 100%;
+  height: 2em;
+}
 
+.color-band .color {
+  height: 1em;
+  width: 20%;
+  transition: height 0.2s;
+}
+
+.color-band .color:hover {
+  height: 1.77em;
+}
+
+
+.name {
+  font-size: 3rem;
+}
+
+.name .hidden-name {
+  width: 0;
+  display: inline-block;
+  opacity: 0;
+  transition: all 0.5s;
+}
+
+.name:hover .hidden-name {
+  width: 1.4em;
+  opacity: 0.8;
+}
+
+
+.card-list {
+  margin-left: -1.5%;
+  margin-right: -1.5%;
+}
+
+.card {
+  background-color: white;
+  width: 30%;
+  margin: 1.5%;
+  padding: 0 2em 1em;
+  transition: all 0.5s;
+  border-top-width: 1em;
+  border-top-style: solid;
+}
+
+.card:hover {
+  box-shadow: 0 0 1em rgba(0,0,0,0.25);
+  transform: scale(1.05);
+}
+
+.card cite {
+  font-size: 0.8em;
+  opacity: 0.8;
+  display: block;
+}
+
+.card a {
+  color: #111;
+  text-decoration: none;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  padding-bottom: 0.1em;
+}
+
+.card a:hover {
+  border-color: black;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+  margin-left: 0;
+}
+
+ul li {
+  margin-bottom: 0.5em;
 }

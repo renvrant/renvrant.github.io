@@ -1,0 +1,33 @@
+/* Variables */
+:root {
+  /* Colour band colours */
+  --palette1: #B5F4BC;
+  --palette2: #FFF19E;
+  --palette3: #FFDC8A;
+  --palette4: #FFBA6B;
+  --palette5: #FF6543;
+}
+
+.color1 { color: var(--palette1); }
+.color2 { color: var(--palette2); }
+.color3 { color: var(--palette3); }
+.color4 { color: var(--palette4); }
+.color5 { color: var(--palette5); }
+
+.bg-color1 { background-color: var(--palette1); }
+.bg-color2 { background-color: var(--palette2); }
+.bg-color3 { background-color: var(--palette3); }
+.bg-color4 { background-color: var(--palette4); }
+.bg-color5 { background-color: var(--palette5); }
+
+.border-color1 { border-color: var(--palette1); }
+.border-color2 { border-color: var(--palette2); }
+.border-color3 { border-color: var(--palette3); }
+.border-color4 { border-color: var(--palette4); }
+.border-color5 { border-color: var(--palette5); }
+
+.link-color1 a { border-color: var(--palette1); }
+.link-color2 a { border-color: var(--palette2); }
+.link-color3 a { border-color: var(--palette3); }
+.link-color4 a { border-color: var(--palette4); }
+.link-color5 a { border-color: var(--palette5); }

@@ -4,7 +4,7 @@ import Header from '../components/header';
 
 function App({ children, routes }) {
   return (
-    <div className="container">
+    <div>
       <Header routes={routes} />
       {children}
     </div>
