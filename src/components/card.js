@@ -3,7 +3,7 @@ import React, { PropTypes } from 'react';
 function Card({ children, title, color }) {
   return (
     <div className={`card border-color${color} link-color${color}`}>
-      <h3 className={`card-title border-color${color}`}>{title}</h3>
+      <h2 className={`card-title`}>{title}</h2>
       {children}
     </div>
   );

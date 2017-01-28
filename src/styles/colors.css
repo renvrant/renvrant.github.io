@@ -1,5 +1,7 @@
 /* Variables */
 :root {
+
+  --bodyCopy: #222222;
   /* Colour band colours */
   --palette1: #B5F4BC;
   --palette2: #FFF19E;

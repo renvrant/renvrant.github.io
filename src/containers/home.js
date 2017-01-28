@@ -7,14 +7,15 @@ function Home() {
   return (
     <div className="container">
 
-      <p className="intro">
+      <p className="intro h3">
         Hey there! I'm Renee Vrantsidis and I'm a Web Developer in Toronto, Canada.
         I've worked across the stack using JavaScript, HTML, CSS and PHP, but I specialize in front-end JavaScript work.
-        I believe in web accessibility and am passionate about building an inclusive culture in the tech industry.
-        I also love video games, narrative design, and talking about all of the above to whoever will listen.
+        I believe the web is for everyone. Inclusivity and accessibility in tech culture are both important topics to me.
+        I also love video games, narrative design, and talking about all of the above to anyone who will listen.
+        Get in touch at renee@renvrant.com.
       </p>
-      <div className="flex flex-wrap card-list">
-        <Card title="Currently Using" color="1">
+      <div className="flex flex-wrap card-list py3">
+        <Card title="Technologies" color="1">
           <ul>
             <li>Angular 2</li>
             <li>React</li>
