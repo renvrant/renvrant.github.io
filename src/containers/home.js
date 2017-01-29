@@ -28,7 +28,7 @@ function Home() {
 
         <Card title="Speaking" color="2">
           <ul>
-            <li>Designing Choice in Narrative Games <cite>Gamercamp 2015</cite></li>
+            <li>Designing Choice in Narrative Games <cite>Gamercamp 2014</cite></li>
             <li>
               <a href="http://www.longstorygame.com/post/78854753270/our-sxsw-14-panel-building-empathic-games-for" target="_blank">
               Building Empathic Games For Health Outcomes</a> <cite>SXSW 2014, Dames Making Games 2014</cite>
@@ -53,6 +53,10 @@ function Home() {
             <li>
               <a href="https://angular-2-training-book.rangle.io/handout/a11y/" target="_blank">
               Angular 2 Accessibility</a>
+            </li>
+            <li>
+              <a href="https://medium.com/@renvrant/teach-determination-not-code-e383f5b65a90#.nfdypf6s0" target="_blank">
+              Teach determination, not code</a>
             </li>
           </ul>
         </Card>
