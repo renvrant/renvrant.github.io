@@ -71,6 +71,7 @@ function Home() {
         </Card>
       </div>
 
+      <Contact />
     </div>
   );
 }
