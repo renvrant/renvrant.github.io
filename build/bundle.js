@@ -26832,6 +26832,27 @@
 	            null,
 	            _react2.default.createElement(
 	              'a',
+	              { href: 'http://www.niftyfish.ca', target: '_blank' },
+	              'NiftyFish'
+	            ),
+	            ' +',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'http://tank.niftyfish.ca', target: '_blank' },
+	              'NiftyFish Tank'
+	            ),
+	            ' @',
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'http://www.tiff.net/exhibitions/nifty-fish' },
+	              'TIFF'
+	            )
+	          ),
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              'a',
 	              { href: 'https://www.freshbooks.com', target: '_blank' },
 	              'FreshBooks'
 	            )
@@ -26843,21 +26864,6 @@
 	              'a',
 	              { href: 'https://mobile.drivetime.com', target: '_blank' },
 	              'DriveTime'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://www.niftyfish.ca', target: '_blank' },
-	              'NiftyFish'
-	            ),
-	            ' +',
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://tank.niftyfish.ca', target: '_blank' },
-	              'NiftyFish Tank'
 	            )
 	          )
 	        )

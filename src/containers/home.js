@@ -39,12 +39,13 @@ function Home() {
 
         <Card title="Projects and Contributions" color="3">
           <ul>
-            <li><a href="https://www.freshbooks.com" target="_blank">FreshBooks</a></li>
-            <li><a href="https://mobile.drivetime.com" target="_blank">DriveTime</a></li>
             <li>
               <a href="http://www.niftyfish.ca" target="_blank">NiftyFish</a> +
-              <a href="http://tank.niftyfish.ca" target="_blank">NiftyFish Tank</a>
+              <a href="http://tank.niftyfish.ca" target="_blank">NiftyFish Tank</a> @
+              <a href="http://www.tiff.net/exhibitions/nifty-fish">TIFF</a>
             </li>
+            <li><a href="https://www.freshbooks.com" target="_blank">FreshBooks</a></li>
+            <li><a href="https://mobile.drivetime.com" target="_blank">DriveTime</a></li>
           </ul>
         </Card>
 
