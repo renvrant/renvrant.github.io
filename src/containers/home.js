@@ -17,7 +17,7 @@ function Home() {
       <div className="flex flex-wrap card-list py3">
         <Card title="Technologies" color="1">
           <ul>
-            <li>Angular 2</li>
+            <li>Angular</li>
             <li>React</li>
             <li>React Native</li>
             <li>Redux</li>
