@@ -26749,7 +26749,7 @@
 	          _react2.default.createElement(
 	            'li',
 	            null,
-	            'Angular 2'
+	            'Angular'
 	          ),
 	          _react2.default.createElement(
 	            'li',
