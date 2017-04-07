@@ -35,7 +35,6 @@ function Home() {
               <a href="http://www.longstorygame.com/post/78854753270/our-sxsw-14-panel-building-empathic-games-for" target="_blank">
                 Building Empathic Games For Health Outcomes</a> <cite>SXSW 2014, Dames Making Games 2014</cite>
             </li>
-            <li>Introduction to Web Design Workshop <cite>Centennial College 2012</cite></li>
           </ul>
         </Card>
 

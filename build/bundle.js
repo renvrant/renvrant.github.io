@@ -26823,16 +26823,6 @@
 	              null,
 	              'SXSW 2014, Dames Making Games 2014'
 	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Introduction to Web Design Workshop ',
-	            _react2.default.createElement(
-	              'cite',
-	              null,
-	              'Centennial College 2012'
-	            )
 	          )
 	        )
 	      ),
