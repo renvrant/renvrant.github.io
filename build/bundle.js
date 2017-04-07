@@ -26735,7 +26735,7 @@
 	    _react2.default.createElement(
 	      'p',
 	      { className: 'intro h3' },
-	      'Hey there! I\'m Renee Vrantsidis and I\'m a Web Developer in Toronto, Canada. I\'ve worked across the stack using JavaScript, HTML, CSS and PHP, but I specialize in front-end JavaScript work. I believe the web is for everyone. Inclusivity and accessibility in tech culture are both important topics to me. I also love video games, narrative design, and talking about all of the above to anyone who will listen. Get in touch at renee@renvrant.com.'
+	      'Hey there! I\'m Renee Vrantsidis and I\'m a JavaScript Developer in Toronto, Canada. I\'ve worked across the stack using JavaScript, HTML, CSS and PHP, but I specialize in front-end JavaScript work. I believe the web is for everyone. Inclusivity and accessibility in tech are both important topics to me. I also love video games, narrative design, and talking about all of the above to anyone who will listen. Get in touch at renee@renvrant.com.'
 	    ),
 	    _react2.default.createElement(
 	      'div',
@@ -26784,6 +26784,21 @@
 	        _react2.default.createElement(
 	          'ul',
 	          null,
+	          _react2.default.createElement(
+	            'li',
+	            null,
+	            _react2.default.createElement(
+	              'a',
+	              { href: 'https://youtu.be/_MrOw8iywC8?t=9500', target: '_blank' },
+	              'FormControl Freaks: Redux Edition'
+	            ),
+	            ' ',
+	            _react2.default.createElement(
+	              'cite',
+	              null,
+	              'ng-conf 2017'
+	            )
+	          ),
 	          _react2.default.createElement(
 	            'li',
 	            null,
@@ -26841,7 +26856,7 @@
 	              { href: 'http://tank.niftyfish.ca', target: '_blank' },
 	              'NiftyFish Tank'
 	            ),
-	            ' @',
+	            ' @ ',
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'http://www.tiff.net/exhibitions/nifty-fish' },
@@ -26879,8 +26894,8 @@
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://angular-2-training-book.rangle.io/handout/a11y/', target: '_blank' },
-	              'Angular 2 Accessibility'
+	              { href: 'https://angular-2-training-book.rangle.io/handout/architect/functional_forms.html', target: '_blank' },
+	              'Functional Forms in Angular'
 	            )
 	          ),
 	          _react2.default.createElement(
@@ -26888,8 +26903,8 @@
 	            null,
 	            _react2.default.createElement(
 	              'a',
-	              { href: 'https://medium.com/@renvrant/teach-determination-not-code-e383f5b65a90#.nfdypf6s0', target: '_blank' },
-	              'Teach determination, not code'
+	              { href: 'https://angular-2-training-book.rangle.io/handout/a11y/', target: '_blank' },
+	              'Angular Accessibility'
 	            )
 	          )
 	        )
