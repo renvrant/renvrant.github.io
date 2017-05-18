@@ -62,11 +62,11 @@
 
 	var _home2 = _interopRequireDefault(_home);
 
-	var _pageNotFound = __webpack_require__(239);
+	var _pageNotFound = __webpack_require__(245);
 
 	var _pageNotFound2 = _interopRequireDefault(_pageNotFound);
 
-	__webpack_require__(240);
+	__webpack_require__(246);
 
 	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -26716,13 +26716,9 @@
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var _reactRouter = __webpack_require__(178);
+	var _cards = __webpack_require__(237);
 
-	var _card = __webpack_require__(237);
-
-	var _card2 = _interopRequireDefault(_card);
-
-	var _contact = __webpack_require__(238);
+	var _contact = __webpack_require__(244);
 
 	var _contact2 = _interopRequireDefault(_contact);
 
@@ -26740,209 +26736,11 @@
 	    _react2.default.createElement(
 	      'div',
 	      { className: 'flex flex-wrap card-list py3' },
-	      _react2.default.createElement(
-	        _card2.default,
-	        { title: 'Technologies', color: '1' },
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Angular'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'React'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'React Native'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Redux'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Node'
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Webpack'
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        _card2.default,
-	        { title: 'Speaking', color: '2' },
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://youtu.be/_MrOw8iywC8?t=9500', target: '_blank' },
-	              'FormControl Freaks: Redux Edition'
-	            ),
-	            ' ',
-	            _react2.default.createElement(
-	              'cite',
-	              null,
-	              'ng-conf 2017'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            'Designing Choice in Narrative Games ',
-	            _react2.default.createElement(
-	              'cite',
-	              null,
-	              'Gamercamp 2014'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://www.longstorygame.com/post/78854753270/our-sxsw-14-panel-building-empathic-games-for', target: '_blank' },
-	              'Building Empathic Games For Health Outcomes'
-	            ),
-	            ' ',
-	            _react2.default.createElement(
-	              'cite',
-	              null,
-	              'SXSW 2014, Dames Making Games 2014'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        _card2.default,
-	        { title: 'Projects and Contributions', color: '3' },
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://www.niftyfish.ca', target: '_blank' },
-	              'NiftyFish'
-	            ),
-	            ' +',
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://tank.niftyfish.ca', target: '_blank' },
-	              'NiftyFish Tank'
-	            ),
-	            ' @ ',
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://www.tiff.net/exhibitions/nifty-fish' },
-	              'TIFF'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.freshbooks.com', target: '_blank' },
-	              'FreshBooks'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://mobile.drivetime.com', target: '_blank' },
-	              'DriveTime'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        _card2.default,
-	        { title: 'Writing', color: '4' },
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://angular-2-training-book.rangle.io/handout/architect/functional_forms.html', target: '_blank' },
-	              'Functional Forms in Angular'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://angular-2-training-book.rangle.io/handout/a11y/', target: '_blank' },
-	              'Angular Accessibility'
-	            )
-	          )
-	        )
-	      ),
-	      _react2.default.createElement(
-	        _card2.default,
-	        { title: 'Social', color: '5' },
-	        _react2.default.createElement(
-	          'ul',
-	          null,
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.github.com/renvrant/', target: '_blank' },
-	              'Github'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'https://www.linkedin.com/in/renvrant', target: '_blank' },
-	              'LinkedIn'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://codepen.io/renvrant/', target: '_blank' },
-	              'CodePen'
-	            )
-	          ),
-	          _react2.default.createElement(
-	            'li',
-	            null,
-	            _react2.default.createElement(
-	              'a',
-	              { href: 'http://www.twitter.com/renvrant', target: '_blank' },
-	              'Twitter'
-	            )
-	          )
-	        )
-	      )
+	      _react2.default.createElement(_cards.TechnologiesCard, null),
+	      _react2.default.createElement(_cards.SpeakingCard, null),
+	      _react2.default.createElement(_cards.WritingCard, null),
+	      _react2.default.createElement(_cards.ProjectCard, null),
+	      _react2.default.createElement(_cards.SocialCard, null)
 	    ),
 	    _react2.default.createElement(_contact2.default, null)
 	  );
@@ -26952,6 +26750,50 @@
 
 /***/ },
 /* 237 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.WritingCard = exports.TechnologiesCard = exports.SocialCard = exports.SpeakingCard = exports.ProjectCard = exports.Card = undefined;
+
+	var _card = __webpack_require__(238);
+
+	var _card2 = _interopRequireDefault(_card);
+
+	var _projectCard = __webpack_require__(239);
+
+	var _projectCard2 = _interopRequireDefault(_projectCard);
+
+	var _speakingCard = __webpack_require__(240);
+
+	var _speakingCard2 = _interopRequireDefault(_speakingCard);
+
+	var _socialCard = __webpack_require__(241);
+
+	var _socialCard2 = _interopRequireDefault(_socialCard);
+
+	var _technologiesCard = __webpack_require__(242);
+
+	var _technologiesCard2 = _interopRequireDefault(_technologiesCard);
+
+	var _writingCard = __webpack_require__(243);
+
+	var _writingCard2 = _interopRequireDefault(_writingCard);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	exports.Card = _card2.default;
+	exports.ProjectCard = _projectCard2.default;
+	exports.SpeakingCard = _speakingCard2.default;
+	exports.SocialCard = _socialCard2.default;
+	exports.TechnologiesCard = _technologiesCard2.default;
+	exports.WritingCard = _writingCard2.default;
+
+/***/ },
+/* 238 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -26992,7 +26834,338 @@
 	exports.default = Card;
 
 /***/ },
-/* 238 */
+/* 239 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _card = __webpack_require__(238);
+
+	var _card2 = _interopRequireDefault(_card);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function ProjectCard() {
+	  return _react2.default.createElement(
+	    _card2.default,
+	    { title: 'Projects and Contributions', color: '4' },
+	    _react2.default.createElement(
+	      'ul',
+	      null,
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://www.niftyfish.ca', target: '_blank' },
+	          'NiftyFish'
+	        ),
+	        ' +',
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://tank.niftyfish.ca', target: '_blank' },
+	          'NiftyFish Tank'
+	        ),
+	        ' @ ',
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://www.tiff.net/exhibitions/nifty-fish' },
+	          'TIFF'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://www.freshbooks.com', target: '_blank' },
+	          'FreshBooks'
+	        )
+	      )
+	    )
+	  );
+	}
+
+	exports.default = ProjectCard;
+
+/***/ },
+/* 240 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _card = __webpack_require__(238);
+
+	var _card2 = _interopRequireDefault(_card);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function SpeakingCard() {
+	  return _react2.default.createElement(
+	    _card2.default,
+	    { title: 'Speaking', color: '2' },
+	    _react2.default.createElement(
+	      'ul',
+	      null,
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://youtu.be/_MrOw8iywC8?t=9500', target: '_blank' },
+	          'FormControl Freaks: Redux Edition'
+	        ),
+	        ' ',
+	        _react2.default.createElement(
+	          'cite',
+	          null,
+	          'ng-conf 2017'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'Designing Choice in Narrative Games ',
+	        _react2.default.createElement(
+	          'cite',
+	          null,
+	          'Gamercamp 2014'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          {
+	            href: 'http://www.longstorygame.com/post/78854753270/our-sxsw-14-panel-building-empathic-games-for',
+	            target: '_blank'
+	          },
+	          'Building Empathic Games For Health Outcomes'
+	        ),
+	        ' ',
+	        _react2.default.createElement(
+	          'cite',
+	          null,
+	          'SXSW 2014, Dames Making Games 2014'
+	        )
+	      )
+	    )
+	  );
+	}
+
+	exports.default = SpeakingCard;
+
+/***/ },
+/* 241 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _card = __webpack_require__(238);
+
+	var _card2 = _interopRequireDefault(_card);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function SocialCard() {
+	  return _react2.default.createElement(
+	    _card2.default,
+	    { title: 'Social', color: '5' },
+	    _react2.default.createElement(
+	      'ul',
+	      null,
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://www.github.com/renvrant/', target: '_blank' },
+	          'Github'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://www.linkedin.com/in/renvrant', target: '_blank' },
+	          'LinkedIn'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://codepen.io/renvrant/', target: '_blank' },
+	          'CodePen'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://www.twitter.com/renvrant', target: '_blank' },
+	          'Twitter'
+	        )
+	      )
+	    )
+	  );
+	}
+
+	exports.default = SocialCard;
+
+/***/ },
+/* 242 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _card = __webpack_require__(238);
+
+	var _card2 = _interopRequireDefault(_card);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function TechnologiesCard() {
+	  return _react2.default.createElement(
+	    _card2.default,
+	    { title: 'Technologies', color: '1' },
+	    _react2.default.createElement(
+	      'ul',
+	      null,
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'Angular'
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'React'
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'React Native'
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'Redux'
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'TypeScript'
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        'Webpack'
+	      )
+	    )
+	  );
+	}
+
+	exports.default = TechnologiesCard;
+
+/***/ },
+/* 243 */
+/***/ function(module, exports, __webpack_require__) {
+
+	'use strict';
+
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+
+	var _react = __webpack_require__(1);
+
+	var _react2 = _interopRequireDefault(_react);
+
+	var _card = __webpack_require__(238);
+
+	var _card2 = _interopRequireDefault(_card);
+
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+	function WritingCard() {
+	  return _react2.default.createElement(
+	    _card2.default,
+	    { title: 'Writing', color: '3' },
+	    _react2.default.createElement(
+	      'ul',
+	      null,
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'http://blog.rangle.io/accessibility-in-modern-web-applications/', target: '_blank' },
+	          'Accessibility in Modern Web Applications'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://angular-2-training-book.rangle.io/handout/architect/functional_forms.html', target: '_blank' },
+	          'Functional Forms in Angular'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://angular-2-training-book.rangle.io/handout/a11y/', target: '_blank' },
+	          'Angular Accessibility'
+	        )
+	      )
+	    )
+	  );
+	}
+
+	exports.default = WritingCard;
+
+/***/ },
+/* 244 */
 /***/ function(module, exports, __webpack_require__) {
 
 	"use strict";
@@ -27045,7 +27218,7 @@
 	exports.default = Contact;
 
 /***/ },
-/* 239 */
+/* 245 */
 /***/ function(module, exports, __webpack_require__) {
 
 	'use strict';
@@ -27081,16 +27254,16 @@
 	exports.default = PageNotFound;
 
 /***/ },
-/* 240 */
+/* 246 */
 /***/ function(module, exports, __webpack_require__) {
 
 	// style-loader: Adds some css to the DOM by adding a <style> tag
 
 	// load the styles
-	var content = __webpack_require__(241);
+	var content = __webpack_require__(247);
 	if(typeof content === 'string') content = [[module.id, content, '']];
 	// add the styles to the DOM
-	var update = __webpack_require__(243)(content, {});
+	var update = __webpack_require__(249)(content, {});
 	if(content.locals) module.exports = content.locals;
 	// Hot Module Replacement
 	if(false) {
@@ -27107,10 +27280,10 @@
 	}
 
 /***/ },
-/* 241 */
+/* 247 */
 /***/ function(module, exports, __webpack_require__) {
 
-	exports = module.exports = __webpack_require__(242)();
+	exports = module.exports = __webpack_require__(248)();
 	// imports
 
 
@@ -27121,7 +27294,7 @@
 
 
 /***/ },
-/* 242 */
+/* 248 */
 /***/ function(module, exports) {
 
 	/*
@@ -27177,7 +27350,7 @@
 
 
 /***/ },
-/* 243 */
+/* 249 */
 /***/ function(module, exports, __webpack_require__) {
 
 	/*
