@@ -5,6 +5,7 @@ function ProjectCard() {
   return (
     <Card title="Projects and Contributions" color="4">
       <ul>
+        <li><a href="http://renvrant.com/tarot-me" target="_blank">Tarot Me!</a></li>
         <li>
           <a href="http://www.niftyfish.ca" target="_blank">NiftyFish</a> +
                     <a href="http://tank.niftyfish.ca" target="_blank">NiftyFish Tank</a> @ <a href="http://www.tiff.net/exhibitions/nifty-fish">TIFF</a>
