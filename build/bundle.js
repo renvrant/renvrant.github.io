@@ -26865,6 +26865,15 @@
 	        null,
 	        _react2.default.createElement(
 	          'a',
+	          { href: 'http://renvrant.com/tarot-me', target: '_blank' },
+	          'Tarot Me!'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
 	          { href: 'http://www.niftyfish.ca', target: '_blank' },
 	          'NiftyFish'
 	        ),
