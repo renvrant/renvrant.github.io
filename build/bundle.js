@@ -26898,6 +26898,15 @@
 	          { href: 'https://www.freshbooks.com', target: '_blank' },
 	          'FreshBooks'
 	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
+	          { href: 'https://www.jetblue.com', target: '_blank' },
+	          'JetBlue'
+	        )
 	      )
 	    )
 	  );

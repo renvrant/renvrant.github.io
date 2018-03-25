@@ -11,6 +11,7 @@ function ProjectCard() {
                     <a href="http://tank.niftyfish.ca" target="_blank">NiftyFish Tank</a> @ <a href="http://www.tiff.net/exhibitions/nifty-fish">TIFF</a>
         </li>
         <li><a href="https://www.freshbooks.com" target="_blank">FreshBooks</a></li>
+        <li><a href="https://www.jetblue.com" target="_blank">JetBlue</a></li>
       </ul>
     </Card>
   );
