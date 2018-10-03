@@ -26946,6 +26946,21 @@
 	        null,
 	        _react2.default.createElement(
 	          'a',
+	          { href: 'https://fitc.ca/presentation/composing-components-in-angular/', target: '_blank' },
+	          'Composing Components in Angular'
+	        ),
+	        ' ',
+	        _react2.default.createElement(
+	          'cite',
+	          null,
+	          'FITC Web Unleashed 2018'
+	        )
+	      ),
+	      _react2.default.createElement(
+	        'li',
+	        null,
+	        _react2.default.createElement(
+	          'a',
 	          { href: 'https://youtu.be/_MrOw8iywC8?t=9500', target: '_blank' },
 	          'FormControl Freaks: Redux Edition'
 	        ),

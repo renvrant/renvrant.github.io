@@ -5,6 +5,10 @@ function SpeakingCard() {
   return (
     <Card title="Speaking" color="2">
       <ul>
+        <li>
+          <a href="https://fitc.ca/presentation/composing-components-in-angular/" target="_blank">
+            Composing Components in Angular
+          </a> <cite>FITC Web Unleashed 2018</cite></li>
         <li><a href="https://youtu.be/_MrOw8iywC8?t=9500" target="_blank">
             FormControl Freaks: Redux Edition</a> <cite>ng-conf 2017</cite></li>
         <li>Designing Choice in Narrative Games <cite>Gamercamp 2014</cite></li>
