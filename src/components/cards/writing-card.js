@@ -5,6 +5,11 @@ function WritingCard() {
   return (
     <Card title="Writing" color="3">
       <ul>
+        <li>
+          <a href="https://rangle.io/blog/custom-build-modes-with-vue-cli-3/" target="_blank">
+          Custom Build Modes with Vue CLI 3
+          </a>
+        </li>
         <li><a href="http://blog.rangle.io/accessibility-in-modern-web-applications/" target="_blank">
                  Accessibility in Modern Web Applications
                </a>

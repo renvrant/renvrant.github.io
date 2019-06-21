@@ -7,10 +7,10 @@ function TechnologiesCard() {
       <ul>
         <li>Angular</li>
         <li>React</li>
-        <li>React Native</li>
+        <li>Vue</li>
+        <li>Gatsby</li>
         <li>Redux</li>
         <li>TypeScript</li>
-        <li>Webpack</li>
       </ul>
     </Card>
   );
