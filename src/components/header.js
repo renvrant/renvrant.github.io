@@ -7,7 +7,7 @@ function Header({ routes }) {
       <ColorBand />
       <div className="container">
         <h1 className="name">
-          ren<span className="hidden-name">ee </span>vrant<span className="hidden-name">sidis</span>
+          renee blackburn
         </h1>
       </div>
     </header>

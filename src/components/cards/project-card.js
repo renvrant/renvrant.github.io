@@ -7,8 +7,7 @@ function ProjectCard() {
       <ul>
         <li><a href="http://renvrant.com/tarot-me" target="_blank">Tarot Me!</a></li>
         <li>
-          <a href="http://www.niftyfish.ca" target="_blank">NiftyFish</a> +
-                    <a href="http://tank.niftyfish.ca" target="_blank">NiftyFish Tank</a> @ <a href="http://www.tiff.net/exhibitions/nifty-fish">TIFF</a>
+          <a href="https://artscience.ca/work/nifty-fish/" target="_blank">NiftyFish</a>
         </li>
         <li><a href="https://www.freshbooks.com" target="_blank">FreshBooks</a></li>
         <li><a href="https://www.jetblue.com" target="_blank">JetBlue</a></li>

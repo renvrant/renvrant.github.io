@@ -14,7 +14,7 @@ function SpeakingCard() {
         <li>Designing Choice in Narrative Games <cite>Gamercamp 2014</cite></li>
         <li>
           <a
-            href="http://www.longstorygame.com/post/78854753270/our-sxsw-14-panel-building-empathic-games-for"
+            href="https://blog.bloomdigital.to/post/78854753270/our-sxsw-14-panel-building-empathic-games-for"
             target="_blank"
           >
               Building Empathic Games For Health Outcomes</a> <cite>SXSW 2014, Dames Making Games 2014</cite>
